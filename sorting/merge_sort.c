@@ -12,16 +12,11 @@ void merge(int arr[], int l ,int mid, int r)
     
     int temp2[n2];
     int temp1[n1];
-
     //coping elements to news arrays
     for ( i = 0; i < n1; i++)
         temp1[i] = arr[l + i];
-
-    
     for(j = 0; j < n2; j++)
         temp2[j] = arr[mid + 1 +j];
-
-
     
     i = 0;
     j = 0;
@@ -41,18 +36,15 @@ void merge(int arr[], int l ,int mid, int r)
             j++;
         }
         k++;
-        
     }
 
     //if any element is temp arrays then copied to original array
-    
     while (i < n1 )
     {
         arr[k] = temp1[i];
         i++;
         k++;
     }
-        
     while (j < n2 )
     {
         arr[k] = temp2[j];
