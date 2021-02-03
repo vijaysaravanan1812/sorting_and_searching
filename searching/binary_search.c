@@ -19,8 +19,9 @@ int bineary_search(int arr[],int l,int r,int key)
 
 int main()
 {
-    int arr[] = {1,2,4,67,454,12345,6665322};
+    int arr[] = {32, 56, 67, 25, 46, 22, 56};
     int size = sizeof(arr)/sizeof(arr[0]),key;
+    sort(arr,0,size -1);
     printf("given array is \t");
     print_array(arr,size);
     printf("Enter the key\n");

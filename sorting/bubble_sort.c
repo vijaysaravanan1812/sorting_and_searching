@@ -26,7 +26,7 @@ void bubble_sort(int size , int *array)
 
 int main()
 {
-     int arr[]={9,8,7,6,5,4,3,2,1,0};
+     int arr[]={91,81,17,16,51,41,13,21,11,10};
     int size=sizeof(arr)/sizeof(arr[0]);
     printf("Given array is \n");
     print_array(arr,size);
