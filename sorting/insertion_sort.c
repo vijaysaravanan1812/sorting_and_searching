@@ -30,7 +30,7 @@ int main()
     printf("After sorting \n");
     insertion_sort( size,  arr);
     print_array(arr,size);
-
+    
     
     return 0;
 }

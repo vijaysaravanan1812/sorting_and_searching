@@ -39,16 +39,18 @@ void quicksort(int *arr,int l, int r)
 
 int main()
 {
-    int arr[] = {40,54,12, 34, 27, 23, 83, 42, 57, 22, 69, 24, 43, 16};
+    //int arr[] = {40,54,12, 34, 27, 23, 83, 42, 57, 22, 69, 24, 43, 16};
+     int arr[] = {1,3,5,7,8,9,10};
     int size = sizeof(arr)/sizeof(arr[0]);
     int l = 0,r = size -1;
 
     printf("given array is\n");
     print_array(arr,size);
     printf("After quick sort\n");
-    sort(arr, 0, size - 1);
-    sort()
+    quicksort(arr,0,size - 1);
     print_array(arr,size);
+
+    exit();
     return 0;
     
 }
